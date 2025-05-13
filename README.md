@@ -7,7 +7,7 @@ This project uses two main CSV files for NFT trading data analysis:
 - **Purpose**: Used for forecasting and anomaly detection shown in Figures 1–2.
 - **Note**: Timestamp field was reconstructed from `block_number` due to missing date values.
 
-## 2. `GraphQL_all_sales_stream.csv`
+## 2. `all_sales_stream.csv`
 - **Source**: Retrieved via GraphQL queries from The Graph Protocol.
 - **Purpose**: Used in most of our time-series and anomaly analysis (e.g., Figures 3–6).
 - **Includes**: Accurate timestamps, buyer/seller addresses, token info, and sale prices.
